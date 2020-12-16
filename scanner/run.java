@@ -22,7 +22,7 @@ static lolii lol=new lolii();
         	//String paths=lol.path;
             try {
         	List<String> allLines = Files.readAllLines(Paths.get(path));
-             //   FileWriter myWriter = new FileWriter("yrab.txt");
+             //   FileWriter myWriter = new FileWriter("D:\\loli.txt");
             BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\senior\\yrab.txt"));
             int x=1;
             for (String line : allLines)
